@@ -23,8 +23,9 @@ cups <- read.csv('./cupcount.csv')
 
 leaflet(cups) %>%
     addTiles() %>%
-    addCircles(radius = ~ cups * 2000, 
-               label = ~paste(name, cups, sep=": "), 
+    # addMarkers() %>%
+    addCircles(radius = ~ cups * 10000, 
+               popup = ~paste(name, cups, sep=": "), 
                weight = 1)
 ```
 
