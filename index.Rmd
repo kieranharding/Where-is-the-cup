@@ -1,0 +1,34 @@
+---
+title: "Where the Cup lives"
+author: "Kieran Harding"
+date: "March 6, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r libraries, include = FALSE}
+library(leaflet)
+library(dplyr)
+```
+
+This is a little illustration of which NHL hockey teams have won the
+most Stanley Cup championships. Circles are sized based on how many 
+times the Cup has been won, which makes it easy to find Montréal.
+
+```{r, warning = FALSE, message=FALSE}
+cups <- read.csv('./cupcount.csv')
+
+leaflet(cups) %>%
+    addTiles() %>%
+    addCircles(radius = ~ cups * 2000, 
+               label = ~paste(name, cups, sep=": "), 
+               weight = 1)
+```
+
+
+Hockey Data Source: https://www.statista.com/statistics/280259/stanley-cup-champions/
+
+Cities Data Source: https://simplemaps.com/data/world-cities

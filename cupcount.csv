@@ -1,0 +1,19 @@
+﻿city,cups,lat,lng,name
+Montreal,24,45.5,-73.5833,Montreal Canadiens
+Toronto,13,43.7,-79.42,Toronto Maple Leafs
+Detroit,11,42.3834,-83.1024,Detroit Red Wings
+Boston,6,42.3189,-71.0838,Boston Bruins
+Chicago,6,41.8373,-87.6861,Chicago Blackhawks
+Pittsburgh,5,40.4396,-79.9763,Pittsburgh Penguins
+Edmonton,5,53.55,-113.5,Edmonton Oilers
+New York,8,40.6943,-73.9249,New York Rangers/Islanders
+Newark,3,39.6777,-75.7573,New Jersey Devils
+Philadelphia,2,40.0076,-75.134,Philadelphia Flyers
+Denver,2,39.7621,-104.8759,Colorado Avalanche
+Los Angeles,2,34.114,-118.4068,Los Angeles Kings
+Tampa,1,27.9937,-82.4454,Tampa Bay Lightning
+Calgary,1,51.083,-114.08,Calgary Flames
+Anaheim,1,33.839,-117.8572,Anaheim Ducks
+Raleigh,1,35.8323,-78.6441,Carolina Hurricanes
+Dallas,1,32.7938,-96.7659,Dallas Stars
+Washington,1,38.9047,-77.0163,Washington Capitals
